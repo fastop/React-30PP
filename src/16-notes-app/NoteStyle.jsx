@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 export const NoteStyle = styled.div `
   color:red;
-  background: green;
+  /* background: green; */
 `;
 
 export const Icons = styled.span`
