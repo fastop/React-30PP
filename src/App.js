@@ -17,7 +17,9 @@ import './App.css';
 
 // import FilterContact from './14-filter-contacts-app/FiltercontactsApp.jsx';
 // import Register from './15-ref-form-valid/RegForm.jsx';
-import NotesApp from './16-notes-app/NotesApp.jsx';
+// import NotesApp from './16-notes-app/NotesApp.jsx';
+//   import ResponsiveNav from './17-resposive-nav/ResponsiveNav.jsx'; //#FAILED
+  import TextAnimationApp from './18-text-animation/TextAnimationApp.jsx';
 
 
 
@@ -45,7 +47,9 @@ function App() {
 
       {/* <FilterContact/> */}
       {/* <Register/> */}
-      <NotesApp />
+      {/* <NotesApp /> */}
+      {/* <ResponsiveNav/ > */}
+      <TextAnimationApp />
 
     </div>
   );
