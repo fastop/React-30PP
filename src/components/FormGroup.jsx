@@ -5,7 +5,8 @@ export default function FormGroup({labelText, inputType, placeholder, values,
                                     onKeyUp,
                                     onChange,
                                     className,
-                                    readOnly=false}) {
+                                    readOnly=false,
+                                    reference}) {
 
   return (
             <div className='form-group'>
@@ -17,7 +18,8 @@ export default function FormGroup({labelText, inputType, placeholder, values,
                         onKeyUp ={onKeyUp}
                         onChange ={onChange}
                         className={className}
-                        readOnly={readOnly}/>
+                        readOnly={readOnly}
+                        ref={reference}/>
             </div>
   )
 }

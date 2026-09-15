@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import Button from '../components/Button';
 import FormGroup from '../components/FormGroup';
 import {Wave}  from "react-animated-text"; //React-animated-text-content doesnt work with this version on react... 
@@ -17,6 +17,11 @@ export default function TextAnimationApp() {
         setInputValue(()=>"");
     }
 
+    let inputText = useRef(null);
+    useEffect(()=>{
+        inputText.current.focus();
+    });
+
   return (
     <div className='container text-center'>
         <form className='container d-flex mt-4'
@@ -26,7 +31,8 @@ export default function TextAnimationApp() {
                         inputType={"text"}
                         placeholder={"Your text"}
                         values={inputValue} 
-                        onChange={handleInputChange}/>
+                        onChange={handleInputChange}
+                        reference={inputText}/>
             <Button text="Clear" 
                     btnClass={"btn-large btn-danger"} 
                     onClick={handleClear} />
