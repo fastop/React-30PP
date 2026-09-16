@@ -20,7 +20,8 @@ import './App.css';
 // import NotesApp from './16-notes-app/NotesApp.jsx';
 // import ResponsiveNav from './17-resposive-nav/ResponsiveNav.jsx'; //#FAILED
 // import TextAnimationApp from './18-text-animation/TextAnimationApp.jsx';
-   import CompoundInteresRateApp from './19-compound-interest-rate/CompoundInteresRateApp';
+// import CompoundInteresRateApp from './19-compound-interest-rate/CompoundInteresRateApp';
+   import SpacePenguin from './20-space-pinguin/SpacePenguinApp.jsx';
 
 
 
@@ -52,7 +53,9 @@ function App() {
       {/* <ResponsiveNav/ > */}
       {/* <TextAnimationApp /> */}
 
-      <CompoundInteresRateApp />
+      {/* <CompoundInteresRateApp /> */}
+
+      <SpacePenguin/>
 
 
     </div>

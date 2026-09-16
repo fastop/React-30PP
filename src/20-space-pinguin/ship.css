@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    height: 1200px;
+}
+
+.space {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items:end;
+}
+
+.btn {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20vh;
+}
+
+.planet {
+    width: 400px;
+    animation: rotate 10s linear infinite;
+    position:absolute;
+    bottom:0;
+}
+
+.mars {
+    width: 200px;
+    animation: rotate 10s linear infinite;
+}
+
+.moon {
+    width: 200px;
+    animation: rotate 10s linear infinite;
+    position:absolute;
+    top: 3px;
+}
+
+@keyframes rotate {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg);}
+}
+
+.fly {
+    transform: translateY(-85vh);
+    transition: 5s ease-in;
+    opacity:0;
+}
+
+.land {
+    transform: translateY(0);
+    transition: 5s ease-in-out;
+}
