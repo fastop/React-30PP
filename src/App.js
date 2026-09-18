@@ -21,7 +21,10 @@ import './App.css';
 // import ResponsiveNav from './17-resposive-nav/ResponsiveNav.jsx'; //#FAILED
 // import TextAnimationApp from './18-text-animation/TextAnimationApp.jsx';
 // import CompoundInteresRateApp from './19-compound-interest-rate/CompoundInteresRateApp';
-   import SpacePenguin from './20-space-pinguin/SpacePenguinApp.jsx';
+// import SpacePenguin from './20-space-pinguin/SpacePenguinApp.jsx';
+// import TaskTrackerApp from './21-tasks-tracker/TaskTrackerApp.jsx';
+   import CardGame from './22-card-game-ui/CardGameUI.jsx';
+
 
 
 
@@ -54,9 +57,10 @@ function App() {
       {/* <TextAnimationApp /> */}
 
       {/* <CompoundInteresRateApp /> */}
+      {/* <SpacePenguin/> */}
+      {/*  <TaskTrackerApp /> */}
 
-      <SpacePenguin/>
-
+      <CardGame />
 
     </div>
   );
