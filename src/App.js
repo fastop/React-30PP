@@ -23,8 +23,9 @@ import './App.css';
 // import CompoundInteresRateApp from './19-compound-interest-rate/CompoundInteresRateApp';
 // import SpacePenguin from './20-space-pinguin/SpacePenguinApp.jsx';
 // import TaskTrackerApp from './21-tasks-tracker/TaskTrackerApp.jsx';
-   import CardGame from './22-card-game-ui/CardGameUI.jsx';
-
+// import CardGame from './22-card-game-ui/CardGameUI.jsx';
+// import AnimatedLoginForm from './23-animated-login-form/AnimatedLoginForm';
+   import PhoneBoookApp from "./24-phone-book/PhoneBookApp.jsx";
 
 
 
@@ -60,7 +61,11 @@ function App() {
       {/* <SpacePenguin/> */}
       {/*  <TaskTrackerApp /> */}
 
-      <CardGame />
+      {/* <CardGame />  */}{/* FAILED!!! */}
+      {/* <AnimatedLoginForm /> */}
+
+      <PhoneBoookApp />
+
 
     </div>
   );
