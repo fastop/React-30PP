@@ -25,7 +25,8 @@ import './App.css';
 // import TaskTrackerApp from './21-tasks-tracker/TaskTrackerApp.jsx';
 // import CardGame from './22-card-game-ui/CardGameUI.jsx';
 // import AnimatedLoginForm from './23-animated-login-form/AnimatedLoginForm';
-   import PhoneBoookApp from "./24-phone-book/PhoneBookApp.jsx";
+// import PhoneBoookApp from "./24-phone-book/PhoneBookApp.jsx";
+  import ExpensesCalcApp from './25-expenses-calculator/ExpensesCalcApp';
 
 
 
@@ -64,7 +65,8 @@ function App() {
       {/* <CardGame />  */}{/* FAILED!!! */}
       {/* <AnimatedLoginForm /> */}
 
-      <PhoneBoookApp />
+      {/* <PhoneBoookApp /> */}
+        <ExpensesCalcApp />
 
 
     </div>
