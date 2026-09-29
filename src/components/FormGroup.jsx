@@ -7,6 +7,7 @@ export default function FormGroup({labelText, inputType, placeholder, values,
                                     className,
                                     readOnly=false,
                                     reference}) {
+                                      
 
   return (
             <div className='form-group'>
@@ -14,7 +15,7 @@ export default function FormGroup({labelText, inputType, placeholder, values,
                 <input type={inputType} 
                         placeholder={placeholder} 
                         values={values}
-                        onIput={onInput}
+                        onInput={onInput}
                         onKeyUp ={onKeyUp}
                         onChange ={onChange}
                         className={className}

@@ -4,7 +4,14 @@ import FormGroup from "../../components/FormGroup";
 import {MdEdit, MdAddCircle} from "react-icons/md";
 
 
-export default function ExpensesForm({handleSubmit, date, handleDate, charge, handleCharge, edit}) {
+export default function ExpensesForm({handleSubmit, 
+                                      date,  
+                                      charge, 
+                                      amount,
+                                      handleDate, 
+                                      handleCharge, 
+                                      handleAmount,
+                                      edit}) {
   return (
     <form onSubmit={handleSubmit} className='card bg-success text-light'>
         <div className='card-body'>
@@ -24,8 +31,8 @@ export default function ExpensesForm({handleSubmit, date, handleDate, charge, ha
             <FormGroup labelText={"Amount"}
                        className={"form-control"}
                        inputType="number"
-                       values={charge}
-                       onChange={handleCharge}
+                       values={amount}
+                       onChange={handleAmount}
                        placeholder={"e.g. 1500"} />
           {" "}
 
