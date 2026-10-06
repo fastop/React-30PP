@@ -27,7 +27,8 @@ import './App.css';
 // import AnimatedLoginForm from './23-animated-login-form/AnimatedLoginForm';
 // import PhoneBoookApp from "./24-phone-book/PhoneBookApp.jsx";
 // import ExpensesCalcApp from './25-expenses-calculator/ExpensesCalcApp';
-  import MortageCalcApp from './26-mortage-app/MortageCalcApp';
+// import MortageCalcApp from './26-mortage-app/MortageCalcApp';
+  import CourseStore from './27-course-store/Store.jsx';
 
 
 function App() {
@@ -67,8 +68,9 @@ function App() {
 
       {/* <PhoneBoookApp /> */}
       {/*  <ExpensesCalcApp /> */}
-        <MortageCalcApp />
+      {/* <MortageCalcApp /> */}
 
+       <CourseStore />
 
     </div>
   );
