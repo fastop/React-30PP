@@ -28,7 +28,8 @@ import './App.css';
 // import PhoneBoookApp from "./24-phone-book/PhoneBookApp.jsx";
 // import ExpensesCalcApp from './25-expenses-calculator/ExpensesCalcApp';
 // import MortageCalcApp from './26-mortage-app/MortageCalcApp';
-  import CourseStore from './27-course-store/Store.jsx';
+// import CourseStore from './27-course-store/Store.jsx'; 
+  import Auth from './28-auth-app/AuthApp.jsx';  
 
 
 function App() {
@@ -69,8 +70,9 @@ function App() {
       {/* <PhoneBoookApp /> */}
       {/*  <ExpensesCalcApp /> */}
       {/* <MortageCalcApp /> */}
+      {/*  <CourseStore /> */}
 
-       <CourseStore />
+        <Auth />
 
     </div>
   );
