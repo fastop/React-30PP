@@ -29,7 +29,8 @@ import './App.css';
 // import ExpensesCalcApp from './25-expenses-calculator/ExpensesCalcApp';
 // import MortageCalcApp from './26-mortage-app/MortageCalcApp';
 // import CourseStore from './27-course-store/Store.jsx'; 
-  import Auth from './28-auth-app/AuthApp.jsx';  
+// import Auth from './28-auth-app/AuthApp.jsx';  
+   import SynthApp from './29-speech-synth/SynthApp.jsx';  
 
 
 function App() {
@@ -72,7 +73,8 @@ function App() {
       {/* <MortageCalcApp /> */}
       {/*  <CourseStore /> */}
 
-        <Auth />
+      {/* <Auth /> */}
+      <SynthApp />
 
     </div>
   );
